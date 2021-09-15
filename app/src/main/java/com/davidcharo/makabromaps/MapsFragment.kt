@@ -54,7 +54,6 @@ class MapsFragment : Fragment() {
             .snippet("Mi restaurante favorito"))
 
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(bello))
-
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bello,11.5F))
 
         if (ActivityCompat.checkSelfPermission(
