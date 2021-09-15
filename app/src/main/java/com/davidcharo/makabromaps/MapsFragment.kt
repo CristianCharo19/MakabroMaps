@@ -38,19 +38,19 @@ class MapsFragment : Fragment() {
         val copacabana = LatLng(6.369154,-75.490002)
         googleMap.addMarker(MarkerOptions()
             .position(copacabana)
-            .title("Makabro Campo Copacabana")
+            .title("Makabro Via Copacabana")
             .snippet("Mi restaurante favorito"))
 
         val ochenta = LatLng(6.2604397,-75.597160)
         googleMap.addMarker(MarkerOptions()
             .position(ochenta)
-            .title("Makabro Campo La 80")
+            .title("Makabro La 80")
             .snippet("Mi restaurante favorito"))
 
         val bello = LatLng(6.339172, -75.548308)
         googleMap.addMarker(MarkerOptions()
             .position(bello)
-            .title("Makabro Campo Bello")
+            .title("Makabro Bello")
             .snippet("Mi restaurante favorito"))
 
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(bello))
