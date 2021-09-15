@@ -55,7 +55,7 @@ class MapsFragment : Fragment() {
 
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(bello))
 
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bello,11F))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bello,11.5F))
 
         if (ActivityCompat.checkSelfPermission(
                 requireContext(),
